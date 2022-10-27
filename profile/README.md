@@ -19,6 +19,7 @@ To be in touch with the high-end science we collaborate with the universities:
 - HSE University
 - ITMO University
 - Peter the Great St. Petersburg Polytechnic University
+
 As a part of this intercollegiate team we develop root technologies to empower UnitTestBot as well as the whole lineup of other software products. Here are some of them:
 
 ### 🤓 SAT solving technology
