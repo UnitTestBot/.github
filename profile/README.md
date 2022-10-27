@@ -9,7 +9,7 @@
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
 
-## Welcome friends 👋
+## Welcome, friends! 👋
 
 We are a team of researchers and engineers from Saint Petersburg 🙋‍.
 
@@ -21,19 +21,19 @@ To be in touch with the high-end science we collaborate with the universities:
 - Peter the Great St. Petersburg Polytechnic University
 As a part of this intercollegiate team we develop root technologies to empower UnitTestBot as well as the whole lineup of other software products. Here are some of them:
 
-### SAT solving technology
+### 🤓 SAT solving technology
 
 SAT solver is a computer program which asks whether the variables of a given Boolean formula can be consistently replaced by _True_ or _False_ in such a way that the formula evaluates to _True_. SAT solvers are frequently used as the “engine” for the program verification applications.
 - [KoSAT](https://github.com/UnitTestBot/kosat) is a pure Kotlin CDCL SAT solver based on MiniSat core. It solves Boolean satisfiability problems given in DIMACS format and supports incremental solving.
 - We also investigate [broader theoretical questions](https://www.utbot.org/research) related to SAT solving, e.g. evaluating the computational hardness of a given SAT problem.
 
-### SMT solving technology
+### 🧐 SMT solving technology
 
 Satisfiability modulo theories (SMT) field of research relates to determining whether a logic formula is satisfiable.
 
 [KSMT](https://github.com/UnitTestBot/ksmt) is the Java/Kotlin facade for various SMT solvers. For now it supports Z3 and Bitwuzla SAT solvers.
 
-### Symbolic execution
+### 😎 Symbolic execution
 
 With SAT and SMT solvers we develop symbolic execution technology to provide our precise code analysis and automated test generation tools with the effective engines. We have three main solutions in this research area.
 
@@ -45,19 +45,19 @@ We converted KLEE into the _bidirectional property-directed symbolic execution_ 
 
 Symbolic execution is the main focus of our interest, so we conducted a [series of research](https://www.utbot.org/research) related to both applied and fundamental problems in this field.
 
-### Fuzzing
+### 🤪 Fuzzing
 
 When working on a UnitTestBot product lineup, we are developing [fuzzing and dynamic program analysis techniques](https://github.com/UnitTestBot/UTBotJava/tree/pelevin/UnitTestBot_Family_Fuzzer_Platform/utbot-fuzzers) suitable for all supported languages: Java/Kotlin, C/C++, Python. JavaScript, and Go.
 
 
-### Program analysis
+### 🙂 Program analysis
 UnitTestBot with its symbolic execution engine and fuzzing techniques is the [ready-to-use](https://github.com/UnitTestBot/UTBotJava/wiki/Static-code-analysis-with-UTBotJava-action) tool for [code analysis](https://github.com/UnitTestBot/UTBotCpp/wiki/CodeAnalyzer).  In addition to this end-to-end solution we implement a basic framework for developing custom static code analyzers.
 
 [Java Compilation Database (JCDB)](https://github.com/UnitTestBot/jcdb) was inspired by the [Soot](https://github.com/soot-oss/soot) framework for analyzing and transforming Java code.
 
 JCDB is a pure Java database which stores information about the compiled Java bytecode — classes, hierarchies, annotations, methods, fields, and their usages. With JCDB it is possible to analyze bytecode located outside the JVM process. It allows UnitTestBot to support the newest JDKs and to reuse data between restarts.
 
-### Program synthesis
+### 🙃 Program synthesis
 
 We investigate approaches to synthesizing code for solving practical problems.
 For example, UnitTestBot is capable of [generating human-readable test method bodies](https://github.com/UnitTestBot/UTBotJava/pull/1030) based on public API rather than Reflection.
