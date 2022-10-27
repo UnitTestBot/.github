@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <!--
 
 **Here are some ideas to get you started:**
@@ -11,7 +9,7 @@
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
 
-### Welcome friends ✌
+## Welcome friends 👋
 
 🙋‍ We are a team of researchers and engineers from Saint Petersburg.
 
@@ -66,4 +64,5 @@ We also develop the genui project — a tool for automatic UI generation. In our
 
 Though all these things may sound nerdy, we believe we develop useful tools for real-life programmers. We try to make UnitTestBot effective and user-friendly — so that we are happy with it when we use it ourselves. And we welcome you to join us in developing UnitTestBot!
 Visit our GitHub page and feel free to contribute 🌈.
-Contact us directly to ask a question, share your ideas or give us feedback — we will be glad to hear from you!
+
+Contact us directly to ask a question, share your ideas or give us feedback — we will be glad to hear from you! ✌
