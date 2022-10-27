@@ -11,7 +11,7 @@
 
 ## Welcome friends 👋
 
-🙋‍ We are a team of researchers and engineers from Saint Petersburg.
+We are a team of researchers and engineers from Saint Petersburg 🙋‍.
 
 We are crazy about mathematics and programming. We love taking part in software testing competitions. We describe our achievements in [research articles](https://www.utbot.org/research). We develop our flagship product — UnitTestBot for Java/Kotlin, C/C++, Python, JavaScript, and Go.
 To be in touch with the high-end science we collaborate with the universities:
