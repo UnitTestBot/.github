@@ -51,10 +51,10 @@ While working on a UnitTestBot product lineup, we develop [fuzzing and dynamic p
 ### 🙂 Program analysis
 UnitTestBot with its symbolic execution engine and fuzzing techniques is the [ready-to-use](https://github.com/UnitTestBot/UTBotJava/wiki/Static-code-analysis-with-UTBotJava-action) tool for [code analysis](https://github.com/UnitTestBot/UTBotCpp/wiki/CodeAnalyzer).  In addition to this end-to-end solution, we implement a basic framework for developing custom static code analyzers.
 
-[Java Compilation Database (JCDB)](https://github.com/UnitTestBot/jcdb) was inspired by the [Soot](https://github.com/soot-oss/soot) framework for analyzing and transforming Java code.
+[Java Compilation Database (JacoDB)](https://github.com/UnitTestBot/jacodb) was inspired by the [Soot](https://github.com/soot-oss/soot) framework for analyzing and transforming Java code.
 
-JCDB is a pure Java database that stores information about the compiled Java bytecode — classes, hierarchies, 
-annotations, methods, fields, and their usages. With JCDB, it is possible to analyze bytecode located outside the 
+JacoDB is a pure Java database that stores information about the compiled Java bytecode — classes, hierarchies, 
+annotations, methods, fields, and their usages. With JacoDB, it is possible to analyze bytecode located outside the 
 JVM process. It allows UnitTestBot to support the newest JDKs and to reuse data between restarts.
 
 ### 🙃 Program synthesis
