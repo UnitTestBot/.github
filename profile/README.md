@@ -1,6 +1,6 @@
 ## Welcome, friends! 👋
 
-We are a team of researchers and engineers from Saint Petersburg 🙋‍.
+We are a distributed team of researchers and engineers 🙋‍.
 
 All of us are crazy about mathematics and programming. We love taking part in software testing [competitions](https://ieeexplore.ieee.org/document/9810769) and describe our achievements in [research articles](https://www.utbot.org/research).
 
