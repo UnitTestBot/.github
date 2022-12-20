@@ -56,7 +56,7 @@ JVM process. It allows UnitTestBot to support the newest JDKs and to reuse data 
 We investigate approaches to synthesizing code for solving practical problems.
 For example, UnitTestBot is able to [generate human-readable test method bodies](https://github.com/UnitTestBot/UTBotJava/pull/1030) based on public API rather than Reflection.
 
-We also develop the [genui](https://github.com/UnitTestBot/genui) project — a tool for automatic UI generation. In 
+We also develop the **genui** project — a tool for automatic UI generation. In 
 our research, we [elaborate](https://icfp22.sigplan.org/details/minikanren-2022-papers/3/On-a-Declarative-Guideline-Directed-UI-Layout-Synthesis) ways to automatically 
 arrange the elements of a user interface in accordance with the specified design guidelines. The next step is to 
 synthesize the code that is capable of implementing this layout.
